@@ -3,7 +3,7 @@ module.exports = {
 	description: "Ian J MacIntosh.com",
 	skip: false,
 	options: {
-		frequency: 60 * 23, // 23 hours
+		frequency: 10, // How many minutes old will the last report need to be in order for this report to run?
 		// Use "run" if the sites don’t share assets on the same origin
 		//           and we can reset chrome with each run instead of
 		//           each site in every run (it’s faster)
