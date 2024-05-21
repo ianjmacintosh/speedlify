@@ -1,9 +1,7 @@
 module.exports = {
 	name: "ianjmacintosh.com", // optional, falls back to object key
 	description: "Ian J MacIntosh.com",
-	// skip if localhost
-	// skip if this is a new fork of the speedlify (not Zach’s)
-	skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
+	skip: false,
 	options: {
 		frequency: 60 * 23, // 23 hours
 		// Use "run" if the sites don’t share assets on the same origin
@@ -14,7 +12,7 @@ module.exports = {
 	},
 	urls: [
 		"https://www.ianjmacintosh.com/",
-		"https://www.zachleat.com/articles/",
-		"https://www.zachleat.com/resume/",
+		"https://www.ianjmacintosh.com/articles/",
+		"https://www.ianjmacintosh.com/resume/",
 	]
 };
